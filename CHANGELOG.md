@@ -4,6 +4,26 @@
 
 [1]: https://pypi.org/project/google-cloud-bigtable/#history
 
+## [1.5.0](https://www.github.com/googleapis/python-bigtable/compare/v1.4.0...v1.5.0) (2020-08-12)
+
+
+### Features
+
+* add 'Rowset.add_row_range_with_prefix' ([#30](https://www.github.com/googleapis/python-bigtable/issues/30)) ([4796ac8](https://www.github.com/googleapis/python-bigtable/commit/4796ac85c877d75ed596cde7628dae31918ef726))
+* pass 'client_options' to base class ctor ([#104](https://www.github.com/googleapis/python-bigtable/issues/104)) ([e55ca07](https://www.github.com/googleapis/python-bigtable/commit/e55ca07561f9c946276f3bde599e69947769f560)), closes [#69](https://www.github.com/googleapis/python-bigtable/issues/69)
+
+
+### Documentation
+
+* **samples:** filter cpu query to get metrics for the correct resources [([#4238](https://www.github.com/googleapis/python-bigtable/issues/4238))](https://github.com/GoogleCloudPlatform/python-docs-samples/issues/4238) ([#81](https://www.github.com/googleapis/python-bigtable/issues/81)) ([2c8c386](https://www.github.com/googleapis/python-bigtable/commit/2c8c3864c43a7ac9c85a0cd7c9cd4eec7434b42d))
+* add sample for writing data with Beam ([#80](https://www.github.com/googleapis/python-bigtable/issues/80)) ([6900290](https://www.github.com/googleapis/python-bigtable/commit/6900290e00daf04ca545284b3f0a591a2de11136))
+* clarify 'Table.read_rows' snippet ([#50](https://www.github.com/googleapis/python-bigtable/issues/50)) ([5ca8bbd](https://www.github.com/googleapis/python-bigtable/commit/5ca8bbd0fb9c4a7cef7b4cbb67d1ba9f2382f2d8))
+* document 'row_set' module explicitly ([#29](https://www.github.com/googleapis/python-bigtable/issues/29)) ([0e0291e](https://www.github.com/googleapis/python-bigtable/commit/0e0291e56cbaeec00ede5275e17af2968a12251c))
+* remove indent from snippet code blocks ([#49](https://www.github.com/googleapis/python-bigtable/issues/49)) ([1fbadf9](https://www.github.com/googleapis/python-bigtable/commit/1fbadf906204c622b9cff3fa073d8fc43d3597f7))
+* switch links to client documentation ([#93](https://www.github.com/googleapis/python-bigtable/issues/93)) ([2c973e6](https://www.github.com/googleapis/python-bigtable/commit/2c973e6cce969e7003be0b3d7a164bdc61b91ef1))
+* update docs build (via synth) ([#99](https://www.github.com/googleapis/python-bigtable/issues/99)) ([c301b53](https://www.github.com/googleapis/python-bigtable/commit/c301b53db4f7d48fd76548a5cd3a01cc46ff1522)), closes [#700](https://www.github.com/googleapis/python-bigtable/issues/700)
+* update links to reflect new Github org ([#48](https://www.github.com/googleapis/python-bigtable/issues/48)) ([9bb11ed](https://www.github.com/googleapis/python-bigtable/commit/9bb11edc885958286b5b31fa18cfd0db95338cb4))
+
 ## [1.4.0](https://www.github.com/googleapis/python-bigtable/compare/v1.3.0...v1.4.0) (2020-07-21)
 
 
